@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:practica_2_gitflow/pages/area_circulo.dart';
 import 'package:practica_2_gitflow/pages/area_cuadrado.dart';
 import 'package:practica_2_gitflow/pages/perimetro_circulo.dart';
+import 'package:practica_2_gitflow/pages/perimetro_cuadrado.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -84,7 +85,7 @@ class _HomePageState extends State<HomePage> {
   }*/
 
 
-  class PerimetroCuadrado extends StatelessWidget {
+  /*class PerimetroCuadrado extends StatelessWidget {
     @override
     Widget build(BuildContext constext) {
       return Scaffold(
@@ -92,5 +93,5 @@ class _HomePageState extends State<HomePage> {
         body: Center(child: Text('Perimetro')),
       );
     }
-  }
+  }*/
 
